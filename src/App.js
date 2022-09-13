@@ -1,4 +1,4 @@
-import Navigationbar from "./components/Navbar";
+import Navigationbar from "./components/Navigationbar";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbroton";
 import Footer from "./components/Footer";
