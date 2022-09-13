@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-const Jumbotron = () => {
+const Content = () => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -46,4 +46,4 @@ const Jumbotron = () => {
   );
 };
 
-export default Jumbotron;
+export default Content;

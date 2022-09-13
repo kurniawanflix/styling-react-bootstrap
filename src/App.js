@@ -1,6 +1,6 @@
 import Navigationbar from "./components/Navigationbar";
 import Header from "./components/Header";
-import Jumbotron from "./components/Jumbroton";
+import Content from "./components/Content";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
       <Navigationbar />
       <Header />
       <div className="container">
-        <Jumbotron />
+        <Content />
       </div>
       <Footer />
     </div>
